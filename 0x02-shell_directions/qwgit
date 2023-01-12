@@ -5,6 +5,7 @@ read commit_title
 git commit -m "$commit_title"
 results=$?
 if [ $result -eq 0 ]; then
+	git push
 else
 	echo "Commit Failed"
 fi
