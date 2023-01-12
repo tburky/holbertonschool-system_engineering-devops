@@ -3,7 +3,7 @@ git add .
 echo "Enter commit title: "
 read commit_title
 git commit -m "$commit_title"
-results=$?
+result=$?
 if [ $result -eq 0 ]; then
 	git push
 else
