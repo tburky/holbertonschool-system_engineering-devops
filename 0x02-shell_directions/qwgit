@@ -3,7 +3,7 @@ git add .
 echo "Enter commit title: "
 read commit_title
 git commit -m "$commit_title"
-results$?
+results=$?
 if [ $result -eq 0 ]; then
 else
 	echo "Commit Failed"
