@@ -4,7 +4,7 @@
 # Requirement:
 #
 # You must use the for loop (while and until are forbidden
-i=0
+i=1
 for i in {1..10}
 do
 	echo "Best School"
