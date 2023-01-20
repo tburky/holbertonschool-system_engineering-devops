@@ -1,0 +1,5 @@
+#!/usr/bin bash
+#Write a Bash script that kills the process 7-highlander.
+#
+#Terminal #0
+pgrep -f 7-highlander | xargs kill
